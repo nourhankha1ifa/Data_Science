@@ -1,0 +1,12 @@
+[
+    {
+        "department_id": "D001",
+        "name": "HR",
+        "manager_id": "E001"
+    },
+    {
+        "department_id": "D002",
+        "name": "IT",
+        "manager_id": "E001"
+    }
+]

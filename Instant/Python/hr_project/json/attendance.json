@@ -1,0 +1,9 @@
+[
+    {
+        "employee_id": "E001",
+        "attendance_date": "2026-10-01",
+        "check_in": "09:00",
+        "check_out": "17:00",
+        "status": "present"
+    }
+]

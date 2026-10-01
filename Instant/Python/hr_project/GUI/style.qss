@@ -1,0 +1,98 @@
+* {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 10pt;
+    color: #1f2937;
+}
+
+QMainWindow, QDialog { background: #f3f5fa; }
+
+QLabel[role="heading"] { font-size: 15pt; font-weight: bold; color: #1d2b53; }
+
+QTabWidget::pane {
+    border: 1px solid #d9deea;
+    background: #ffffff;
+    border-radius: 8px;
+    top: -1px;
+}
+QTabBar::tab {
+    background: #e4e9f5;
+    color: #46506b;
+    padding: 10px 24px;
+    margin-right: 3px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+QTabBar::tab:selected { background: #ffffff; color: #2449c2; }
+QTabBar::tab:hover:!selected { background: #d7dff2; }
+
+QLineEdit, QComboBox, QDateEdit, QDoubleSpinBox {
+    border: 1px solid #c6cde0;
+    border-radius: 6px;
+    padding: 6px 10px;
+    background: #ffffff;
+    min-height: 22px;
+    selection-background-color: #2f5de8;
+}
+QLineEdit:focus, QComboBox:focus, QDateEdit:focus, QDoubleSpinBox:focus {
+    border: 1px solid #2f5de8;
+}
+QLineEdit:disabled, QComboBox:disabled, QDateEdit:disabled {
+    background: #eceff6;
+    color: #7a849c;
+}
+
+QPushButton {
+    background: #ffffff;
+    border: 1px solid #c6cde0;
+    border-radius: 6px;
+    padding: 7px 20px;
+    min-width: 64px;
+}
+QPushButton:hover { background: #eef2ff; border-color: #9fb3f5; }
+QPushButton:pressed { background: #dfe7ff; }
+
+QPushButton[role="primary"] { background: #2f5de8; color: #ffffff; border: none; font-weight: bold; }
+QPushButton[role="primary"]:hover { background: #2449c2; }
+
+QPushButton[role="danger"] { color: #c62828; border: 1px solid #e3a5a5; }
+QPushButton[role="danger"]:hover { background: #fdecec; }
+
+QTableWidget {
+    border: 1px solid #d9deea;
+    border-radius: 6px;
+    background: #ffffff;
+    alternate-background-color: #f6f8fd;
+    selection-background-color: #dbe5ff;
+    selection-color: #111827;
+    outline: 0;
+}
+QTableWidget::item { padding: 6px; }
+QHeaderView::section {
+    background: #eef1f9;
+    color: #2c3550;
+    font-weight: bold;
+    padding: 9px 6px;
+    border: none;
+    border-bottom: 2px solid #d3daea;
+}
+
+QStatusBar { color: #5b6580; }
+
+QComboBox::drop-down, QDateEdit::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: center right;
+    width: 28px;
+    border: none;
+}
+QComboBox::down-arrow, QDateEdit::down-arrow {
+    image: url(ARROW_DOWN);
+    width: 16px;
+    height: 16px;
+}
+QComboBox QAbstractItemView {
+    border: 1px solid #c6cde0;
+    background: #ffffff;
+    selection-background-color: #dbe5ff;
+    selection-color: #111827;
+    outline: 0;
+}

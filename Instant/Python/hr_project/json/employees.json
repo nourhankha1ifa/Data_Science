@@ -1,0 +1,13 @@
+[
+    {
+        "employee_id": "E001",
+        "full_name": "Nourhan Khalifa",
+        "email": "nourhan@example.com",
+        "phone": "01123456789",
+        "department_id": "D001",
+        "job_title": "IT",
+        "hire_date": "2026-10-01",
+        "employment_type": "full_time",
+        "status": "active"
+    }
+]
